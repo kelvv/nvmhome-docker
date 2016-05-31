@@ -1,4 +1,4 @@
-> 本文意在让你掌握极速搭建Node服务端（任何Project）
+> 搭建Node服务端（任何Project）
 
 ```
 $ whoami
@@ -8,15 +8,13 @@ homepage:    www.kelvv.com
 github:      https://github.com/kelvv
 ```
 ****
-本文利用Docker搭建一个预安装好:
+利用Docker搭建一个预安装好:
 * pm2  -- Node应用的进程管理器
 * git     -- 代码管理
 * ssh    -- 远程登录
 * nvm   -- node版本管理
 * npm   -- node包安装
 * node  -- So,you know
-
-**本项目github：[Here](https://github.com/kelvv/nvmhome-docker)** , 欢迎Start
 
 **> 当然可直接使用该镜像：**
 ```
@@ -83,8 +81,3 @@ $ docker build -t name .
 $ docker run -p 0.0.0.0:3000:22 -p 0.0.0.0:80:80 -d name
 ```
 
-##总结
-
-以上已经建立好基础，下一篇文章会说说：如何使用nvmhome＋pm2，一键发布、管理自己的应用，，是一个很简单的个人主页,希望你们喜欢！
-
-我的个人主页就是这样部署的：[Homepage传送门](http://www.kelvv.com/)
