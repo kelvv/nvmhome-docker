@@ -21,3 +21,6 @@ EXPOSE 22
 EXPOSE 80
     
 CMD ["/usr/sbin/sshd", "-D"] 
+
+ADD ./Startup.sh ./Startup.sh
+ENTRYPOINT ["/bin/sh","./Startup.sh"]
