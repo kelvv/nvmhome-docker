@@ -21,4 +21,4 @@ EXPOSE 22
 EXPOSE 80
 
 ADD ./Startup.sh ./Startup.sh
-CMD /bin/bash ./Startup.sh && /usr/sbin/sshd -D
+CMD /usr/sbin/sshd -D && /bin/bash ./Startup.sh
