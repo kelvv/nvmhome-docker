@@ -5,5 +5,5 @@ if [ $projecturl ];then
   cd /var/www
   git clone ${projecturl}
   cd ${dirurl##*/}
-  npm install ;npm start
+  npm install --registry=https://registry.npm.taobao.org;npm start
 fi
