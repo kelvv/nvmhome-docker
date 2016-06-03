@@ -5,5 +5,5 @@ if [ $projecturl ];then
   cd /var/www
   git clone ${projecturl}
   cd ${dirurl##*/}
-  npm install ;npm run pm2
+  npm install ;npm start
 fi
