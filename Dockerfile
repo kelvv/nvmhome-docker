@@ -1,11 +1,11 @@
 FROM ubuntu:14.04
 
 RUN apt-get update
-RUN apt-get install -y curl git-all openssh-server
+RUN apt-get install -y curl git-all openssh-server 
 ADD .bashrc /root/.bashrc
 
 RUN curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.31.0/install.sh | bash
-RUN . /root/.bashrc;nvm install 4.3.1;nvm use 4.3.1;npm install pm2 -g;pm2 startup ubuntu
+RUN . /root/.bashrc;nvm install 4.3.1;nvm use 4.3.1;npm install pm2 -g;pm2 startup ubuntu;npm install my-deploy -g
 
 RUN mkdir /var/run/sshd
 RUN echo 'root:myssh' | chpasswd
