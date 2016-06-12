@@ -6,7 +6,7 @@ name:		kelvin
 email:		kelvv@outlook.com
 homepage:	www.kelvv.com
 github:		https://github.com/kelvv
-blog:		http://www.jianshu.com/users/0a730b7c99b7/latest_articles
+blog:		[](http://www.jianshu.com/users/0a730b7c99b7/latest_articles)
 ```
 
 ****
