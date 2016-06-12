@@ -9,12 +9,13 @@ github:      https://github.com/kelvv
 ```
 ****
 利用Docker搭建一个预安装好:
-* pm2  -- Node应用的进程管理器
-* git     -- 代码管理
-* ssh    -- 远程登录
-* nvm   -- node版本管理
-* npm   -- node包安装
-* node  -- So,you know
+* pm2         -- Node应用的进程管理器
+* my-deploy   -- 自动代码更新
+* git         -- 代码管理
+* ssh         -- 远程登录
+* nvm         -- node版本管理
+* npm         -- node包安装
+* node        -- So,you know
 
 **> 当然可直接使用该镜像：**
 ```
