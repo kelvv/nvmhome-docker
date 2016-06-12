@@ -5,5 +5,8 @@ if [ $projecturl ];then
   cd /var/www
   git clone ${projecturl}
   cd ${dirurl##*/}
-  npm install ;npm start
+  if [ $autoupdate ];then
+    nohup mydeploy start &
+  fi
+  npm install ; nohup npm start &
 fi
