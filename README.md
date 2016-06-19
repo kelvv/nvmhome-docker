@@ -41,7 +41,7 @@ Out of the box it pre-installed the following features:
 $ docker run -p 0.0.0.0:${ssh-port}:22 -p 0.0.0.0:${app-port}:${real-app-port} -e 'projecturl=${git-https-url}' -e "autoupdate=true" -itd  kelvv/nvmhome-docke
 	```
 
-2. you need to install something else 
+*  if you need to install something else 
 
 	```
 	$ git clone https://github.com/kelvv/nvmhome-docker.git
